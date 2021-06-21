@@ -1,0 +1,58 @@
+/* o * significa qualquer tag no html */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+
+html *{
+    margin: 0;
+}
+
+body{
+  
+    text-align: center;
+    background-image: url(https://bit.ly/3xF5rbT);   
+    background-repeat: no-repeat;
+    background-position:center center;
+    height: 100vh;
+    background-size: 1700px;
+    background-attachment: fixed;
+    color:white;
+
+}
+
+
+#cabecalho{ 
+    height: 10vh; 
+    font-family: 'Playfair Display',sans-serif; 
+    text-align: center;
+
+}
+
+.imagem{
+    height:500px;
+    padding: 10px;
+    border:solid 3px white ;
+    margin: 3px;
+}
+
+#conteudo{
+    height: 75vh;
+    text-align: center; 
+    font-family:sans-serif; 
+
+}
+
+
+#rodape{
+
+    height: 25vh;
+    color: white;   
+    font-family:sans-serif;
+    font: size 10px;
+
+}
+
+.icones{
+    width: 50px;
+    font-family: 'Playfair Display',sans-serif;
+    position: right;
+}
